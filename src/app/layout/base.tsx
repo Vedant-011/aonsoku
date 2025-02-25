@@ -15,8 +15,11 @@ const MiniSidebarMemo = memo(MiniSidebar)
 const SidebarMemo = memo(Sidebar)
 const PlayerMemo = memo(Player)
 
+//here 
+
+
 export default function BaseLayout() {
-  const { pathname } = useLocation() as Location
+  const { pathname } = useLocation() as Location 
 
   useEffect(() => {
     scrollPageToTop()
