@@ -11,6 +11,7 @@ interface FetchOptions extends RequestInit {
 
 type AuthParams = { u: string; t: string; s: string } | { u: string; p: string }
 
+
 export function authQueryParams(
   username: string,
   password: string,
